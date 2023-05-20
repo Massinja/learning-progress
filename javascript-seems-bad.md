@@ -25,6 +25,14 @@ It turns out, all the random index values, including negative integers become a 
     console.log(list.random)
     //console.log(list.-1) // SyntaxError! but wasn't "-1" object's property?
     
+   **Output:** 
+   
+    [ 0, 1, 3, 5, 6 ]
+    [ 0, 1, 3, 5, 6, '-1': 76, random: 98 ]
+    length of the list is 5
+    98
+    108
+    
 
 
 
