@@ -33,6 +33,16 @@ It turns out, all the random index values, including negative integers become a 
     98
     108
     
+inconsistent:
+
+    let firstVar = "12" + 5
+    let secondVar = "12" - 5
+    console.log("\"12\" + 5 = ", firstVar, "\n\"12\" - 5 = ", secondVar)
+    
+   **Output:** 
+   
+    "12" + 5 =  125 
+    "12" - 5 =  7   
 
 
 
